@@ -1,5 +1,8 @@
-#!/usr/bin/env sh
+# !/usr/bin/env sh
 echo "Installing.."
 
-# shell settings
-ln -sv /home/juan/.dotfiles/zsh/.zshrc ~/.zshrc
+# Shell settings
+ln -sv ${PWD}/zsh/.zshrc ~/.zshrc
+
+# Theme
+ln -sv ${PWD}/zsh/juan.zsh-theme ~/.oh-my-zsh/themes/juan.zsh-theme
