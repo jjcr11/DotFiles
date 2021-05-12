@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+echo "Installing.."
+
+# shell settings
+ln -sv /home/juan/.dotfiles/zsh/.zshrc ~/.zshrc
